@@ -3,7 +3,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="wedding" tagdir="/WEB-INF/tags" %>
 
-<wedding:wrapper section="Info">
+<wedding:wrapper section="Wedding Info">
     <table class="wedding-info-table">
       <tr>
         <td>

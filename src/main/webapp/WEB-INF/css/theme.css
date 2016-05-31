@@ -35,7 +35,7 @@ body {
 .main-nav {
     background-color: #ffffff;
     margin: 0;
-    overflow: hidden;
+    overflow: visible;
     text-align: center;
     font-family: Ariel, Sans-serif;
     font-weight: normal;
@@ -57,14 +57,26 @@ body {
     background-color: #ffffff;
     color: #000000;
     font-size: 18px; /* override the font-size: 0 done in the containing list */
-    line-height: 2em;
-    padding: 2em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    padding-left: 1.6em;
+    padding-right: 1.6em;
     text-decoration: none;
     cursor: pointer;
 }
 
 .main-nav-btn:hover {
     background-color: #fedb63; /* yellow */
+}
+
+.main-nav-btn.active {
+    background-color: #ffffff;
+    color: #000000;
+    cursor: default;
+    overflow: visible;
+    border-bottom-width: 3;
+    border-bottom-color: #fedb63;
+    border-bottom-style: solid;
 }
 
 .wedding-info-table {

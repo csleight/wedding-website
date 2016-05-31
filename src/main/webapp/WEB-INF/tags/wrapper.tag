@@ -35,7 +35,7 @@
     <div class="banner-space"></div>
 
     <div class="main-nav-div">
-      <wedding:nav/>
+      <wedding:nav activeSection="${section}"/>
     </div>
 
     <jsp:doBody/>
