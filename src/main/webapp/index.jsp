@@ -4,6 +4,9 @@
 <%@ taglib prefix="wedding" tagdir="/WEB-INF/tags" %>
 
 <wedding:wrapper section="Home">
+  <div class="couple">
+  </div>
+<!-- 
   <div class="polaroid-border">
     <table>
       <tr>
@@ -18,4 +21,5 @@
       </tr>
     </table>
   </div>
+-->
 </wedding:wrapper>

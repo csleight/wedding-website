@@ -20,7 +20,9 @@
 
     <link href="http://fonts.googleapis.com/css?family=Arizonia" rel="stylesheet" type="text/css"/>
     <link href="http://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet" type="text/css"/>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="<c:url value="/css/theme.css"/>"/>
+    <link rel="stylesheet" type="text/css" href="<c:url value="/css/accordion.css"/>"/>
 
     <!-- Firefox, Chrome, Opera -->
     <link rel="icon" type="image/png" href="<c:url value="/images/oak-tree-16x16.png"/>"/>
@@ -29,10 +31,13 @@
     <!-- IE -->
     <link rel="icon" type="image/x-icon" href="<c:url value="/images/oak-tree.ico"/>"/>
     <link rel="shortcut icon" type="image/x-icon" href="<c:url value="/images/oak-tree.ico"/>"/>
-
   </head>
   <body>
-    <div class="banner-space"></div>
+    <wedding:cdiv>
+      <div class="banner-space">
+        <img src="<c:url value="/images/monogram.png"/>" alt="Stephanie & Christopher"/>
+      </div>
+    </wedding:cdiv>
 
     <div class="main-nav-div">
       <wedding:nav activeSection="${section}"/>
@@ -40,4 +45,27 @@
 
     <jsp:doBody/>
   </body>
+
+  <script>
+    (function($) {
+        $('.accordion > li:eq(0) a').addClass('active').next().slideDown();
+
+        $('.accordion a').click(function(j) {
+            var dropDown = $(this).closest('li').find('div');
+
+            $(this).closest('.accordion').find('div').not(dropDown).slideUp();
+
+            if ($(this).hasClass('active')) {
+                $(this).removeClass('active');
+            } else {
+                $(this).closest('.accordion').find('a.active').removeClass('active');
+                $(this).addClass('active');
+            }
+
+            dropDown.stop(false, true).slideToggle();
+
+            j.preventDefault();
+        });
+    })(jQuery);
+  </script>
 </html>

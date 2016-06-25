@@ -54,15 +54,5 @@
         </c:otherwise>
       </c:choose>
     </li>
-    <li class="main-nav-li">
-      <c:choose>
-        <c:when test="${activeSection eq 'RSVP'}">
-          <a id="main-nav-rsvp-btn" class="main-nav-btn active">RSVP</a>
-        </c:when>
-        <c:otherwise>
-          <a id="main-nav-rsvp-btn" class="main-nav-btn" href="${pageContext.request.contextPath}/rsvp">RSVP</a>
-        </c:otherwise>
-      </c:choose>
-    </li>
   </ul>
 </nav>

@@ -24,7 +24,10 @@ body {
 
 .banner-space {
     background-color: #ffffff;
-    height: 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 132px;
     width: 100%;
 }
 
@@ -79,6 +82,11 @@ body {
     border-bottom-style: solid;
 }
 
+/* A top level section */
+.section {
+    margin: 100px auto;
+}
+
 .wedding-info-table {
     margin: 100px auto;
     font-family: Ariel, Sans-serif;
@@ -87,11 +95,12 @@ body {
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
-.event-datetime {
-    margin-top: 25px;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 25px;
+.center {
+    margin: 0 auto;
+}
+
+.center-text {
+    text-align: center;
 }
 
 .venue-vcard {
@@ -106,6 +115,13 @@ body {
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 25px;
+}
+
+.couple {
+    background: url("../images/ChrisAndStephanie048_900x600_linear-gradient-alpha-mask.png") no-repeat center top;
+    margin-top: 100px;
+    height: 600px;
+    width: 100%;
 }
 
 .polaroid-border {

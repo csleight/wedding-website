@@ -1,0 +1,21 @@
+<li>Northbound Hwy 101</li>
+              <ul>
+                <li>Exit Hwy 101 NB at Monterey St.</li>
+                <li>Take first right onto Buena Vista Ave.</li>
+                <li>Cross freeway overpass</li>
+                <li>Turn right onto Loomis St.</li>
+                <li>Continue on Loomis St. (keeping right at any forks in the road)</li>
+                <li>Loomis St. ends at the parking lot for Cuesta Park, but La Cuesta Ranch is located down a private road to the left of the parking lot entrance.</li>
+                <li>Keep left and continue onto Miossi Rd.</li>
+                <li>The main entrance will be the first left, but guest parking is available just beyond the main entrance in a dirt lot to the left.</li>
+              </ul>
+            <li>Southbound Hwy 101</li>
+              <ul>
+                <li>Exit Hwy 101 SB at Monterey St.</li>
+                <li>Turn right onto Buena Vista Ave.</li>
+                <li>Turn right onto Loomis St.</li>
+                <li>Continue on Loomis St. (keeping right at any forks in the road)</li>
+                <li>Loomis St. ends at the parking lot for Cuesta Park, but La Cuesta Ranch is located down a private road to the left of the parking lot entrance.</li>
+                <li>Keep left and continue onto Miossi Rd.</li>
+                <li>The main entrance will be the first left, but guest parking is available just beyond the main entrance in a dirt lot to the left.</li>
+              </ul>
